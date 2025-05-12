@@ -14,7 +14,7 @@ let package = Package(
             targets: ["GeoQueries"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/realm/realm-cocoa.git", .exact(Version(4, 1, 1))),
+        .package(url: "https://github.com/realm/realm-cocoa.git", .exact(Version(4, 3, 0))),
     ],
     targets: [
         .target(
